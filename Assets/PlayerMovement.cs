@@ -55,6 +55,6 @@ public class PlayerMovement : MonoBehaviour
         {
             hasjumped = false;
         }//får hoppa när nuddar tagen golv
-    }//gör så att maninte kan dubbelhoppa
+    }//gör så att man inte kan dubbelhoppa
 
 }
