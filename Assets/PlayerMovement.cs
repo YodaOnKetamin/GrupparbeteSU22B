@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(transform.up * jumpForce);
             hasjumped = true;
         }//hoppa
-    }
+    }//höger vänster movement
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
