@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7c4bcdf0a1e6df44dbda2de380ea6874
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - pelletPrefab: {fileID: 3592577001170670001, guid: 21da7dae620ef654db68d73a7ebd7f2b, type: 3}
+  - shootPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
