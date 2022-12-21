@@ -7,6 +7,8 @@ TagManager:
   - golv
   - player
   - WaterPellet
+  - Ghost
+  - Winzone
   layers:
   - Default
   - TransparentFX

@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Pontus Scene.unity
     guid: 3a80fa687d3d2a44598a291ce828e6b7
+  - enabled: 1
+    path: Assets/Scenes/StartScreen.unity
+    guid: 365257ca678428241876731b5c85413c
+  - enabled: 1
+    path: Assets/Scenes/Simon.unity
+    guid: 531c8263000c4af4390eb4493233f946
+  - enabled: 1
+    path: Assets/Scenes/gameOver.unity
+    guid: 726a630ad8f2ff141b9cd4c0e55125b2
+  - enabled: 1
+    path: Assets/Scenes/VictoryScreen.unity
+    guid: 211ee9c3b692cef449615753d5447958
   m_configObjects: {}
