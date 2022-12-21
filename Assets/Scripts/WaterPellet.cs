@@ -51,6 +51,9 @@ public class WaterPellet : MonoBehaviour
                 rb.constraints = RigidbodyConstraints2D.None;
                 touchGround = true;
             }
+        } else if(col.gameObject.CompareTag("Ghost")){
+            Destroy(col.gameObject);
+        
         }
         
     }
