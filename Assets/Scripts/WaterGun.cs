@@ -30,7 +30,7 @@ public class WaterGun : MonoBehaviour
             force = shootDir.normalized * 500;
             GameObject pellet = Instantiate(pelletPrefab, shootPoint.position, new Quaternion(0, 0, 90, 0));
             pellet.GetComponent<WaterPellet>().SetForce(force);
-            playerRigidBody.AddForce((force *-1)/50);
+            
             
         }
         

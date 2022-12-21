@@ -6,14 +6,15 @@ TagManager:
   tags:
   - golv
   - player
+  - WaterPellet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - Bullet
   - 
   - 
   - 

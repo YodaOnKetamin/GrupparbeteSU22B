@@ -37,12 +37,10 @@ public class WaterPellet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        print("Collided");
+        
         if (col.gameObject.CompareTag("golv"))
         {
-            print("Hit ground!");
-            rb.constraints = RigidbodyConstraints2D.None;
-            touchGround = true;
+          Destroy(gameObject);
         }else if(col.gameObject.CompareTag("WaterPellet"))
         {
             print("Hit another pellet!");

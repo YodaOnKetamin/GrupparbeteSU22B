@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3592577001170673231}
   - component: {fileID: 3592577001170673230}
   - component: {fileID: 3479858894686375719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WaterPellet
   m_TagString: WaterPellet
   m_Icon: {fileID: 0}
